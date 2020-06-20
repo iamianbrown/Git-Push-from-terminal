@@ -47,7 +47,7 @@ ostream& operator<< (ostream& out, Point&& p)
 	out << "( " << p.getx() << " , " << p.gety() << " )";
 	return out;
 }
-int main(void)
+int main(void)//this is the main function
 {
 	Point point1 = {1.2, 9};
 	Point point2 = {4.2, 0.1};
